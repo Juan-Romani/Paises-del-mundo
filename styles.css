@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    background-image: url('pexels-pixabay-87651.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    background-color: #ffffff65;
+    font-size: 32px;
+    font-weight: bold;
+    color: #090031;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.buttons-container button {
+    background-color: #009705;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.buttons-container button:hover {
+    background-color: #45a049;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#country-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#country-list>div img {
+    width: 180px;
+    height: 130px;
+    display: block;
+    margin: 0 auto 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#country-list {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #00522265;
+    transition: transform 0.3s ease;
+}
+
+.country-item {
+    margin: 10px;
+    padding: 10px;
+    background-color: #00a73867;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.country-item p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.pagination-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.pagination-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pagination-button:active {
+    background-color: #357a38;
+}

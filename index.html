@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Países del mundo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PAÍSES DEL MUNDO</h1>
+        <div class="buttons-container">
+            <button onclick="getCountries('all')">Todo el mundo</button>
+            <button onclick="getCountries('Africa')">África</button>
+            <button onclick="getCountries('Americas')">América</button>
+            <button onclick="getCountries('Asia')">Asia</button>
+            <button onclick="getCountries('Europe')">Europa</button>
+            <button onclick="getCountries('Oceania')">Oceanía</button>
+        </div>
+    
+        <div id="country-list"></div>
+        <button class="pagination-button" onclick="prevCountries()">◄ Anterior</button>
+<button class="pagination-button" onclick="nextCountries()">Siguiente ►</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
